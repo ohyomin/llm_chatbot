@@ -28,7 +28,7 @@ def extract_package(text):
 
 # 프롬프트 비용이 너무 많이 소요되는 것을 방지하기 위해
 MAX_MESSAGES_BEFORE_DELETION = 4
-URL = 'http://localhost:8000/prompt'
+URL = 'https://backend-3t7iohvptq-du.a.run.app:8080/prompt'
 
 # 웹사이트에서 유저의 인풋을 받고 위에서 만든 AI 에이전트 실행시켜서 답변 받기
 if prompt := st.chat_input("질문 해주세요!"):
